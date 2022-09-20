@@ -73,6 +73,7 @@ const Banner = () => {
                   <Link
                     href='https://www.linkedin.com/in/akinyeleakindoyin'
                     target='_blank'
+                    rel='noreferrer'
                   >
                     <FaLinkedinIn
                       size={20}
@@ -88,6 +89,7 @@ const Banner = () => {
                   <Link
                     href='https://github.com/akinyeleakindoyin'
                     target='_blank'
+                    rel='noreferrer'
                   >
                     <AiOutlineGithub
                       size={20}
@@ -112,7 +114,11 @@ const Banner = () => {
                   className='p-1 hover:bg-[#f75023]/10  rounded-full flex items-center justify-center w-10 h-10 cursor-pointer'
                   title='About Me'
                 >
-                  <Link href='mailto:akinyeleakindoyin@gmail.com'>
+                  <Link
+                    href='mailto:akinyeleakindoyin@gmail.com'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
                     <AiOutlineMail
                       size={20}
                       className='cursor-pointer text-[#444] dark:text-[color:var(--bg-color)] '

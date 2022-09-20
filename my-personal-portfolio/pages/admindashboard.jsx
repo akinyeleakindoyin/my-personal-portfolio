@@ -28,7 +28,7 @@ const admindashboard = () => {
           <h2>Overview</h2>
           <p>
             Shoppy is an admin dashboard that comprises a lot of feature such as
-            Calendar, Kanban, Different kinds of Charts, Employees' and Orders'
+            Calendar, Kanban, Different kinds of Charts, Employees and Orders
             page, Chat, Notification, Admin profile, Carts.
           </p>
           <div className='text-white'>

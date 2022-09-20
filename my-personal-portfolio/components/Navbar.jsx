@@ -71,6 +71,7 @@ const Navbar = () => {
           <Link href='/' className='cursor-pointer'>
             <Image
               src={logo ? akinImg : logoImg}
+              alt='akinyele logo'
               width='50'
               height='50'
               className='cursor-pointer'
@@ -82,20 +83,20 @@ const Navbar = () => {
           className='flex  item-center justify-between font-bold  py-1 px-4 rounded-full xs:hidden mr-14'
         >
           <li className=' p-2 cursor-pointer'>
-            <a href='/'>Home</a>
+            <Link href='/'>Home</Link>
           </li>
           <li className='p-2 ml-4 cursor-pointer'>
             <a href='#portfolio'>Portfolio</a>
           </li>
           <li className='p-2 ml-4 cursor-pointer '>
-            <a
+            <Link
               href='https://drive.google.com/file/d/1ZlQwEGPcEHnYIzb-IAQNCHxhIQx-SOhn/view?usp=sharing'
               target='_blank'
               rel='noopener noreferrer'
               download
             >
               Resume
-            </a>
+            </Link>
           </li>
         </ul>
         <div
@@ -141,13 +142,20 @@ const Navbar = () => {
           <div>
             <ul className='flex flex-col  item-center justify-between font-bold  py-1 rounded-full'>
               <li onClick={() => setNav(false)} className=' p-2 cursor-pointer'>
-                <a href='/'>Home</a>
+                <Link href='/'>Home</Link>
               </li>
               <li onClick={() => setNav(false)} className='p-2 cursor-pointer'>
-                <a href='/'>Portfolio</a>
+                <Link href='#portfolio'>Portfolio</Link>
               </li>
               <li onClick={() => setNav(false)} className='p-2 cursor-pointer '>
-                <a href='/'>Resume</a>
+                <Link
+                  href='https://drive.google.com/file/d/1ZlQwEGPcEHnYIzb-IAQNCHxhIQx-SOhn/view?usp=sharing'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  download
+                >
+                  Resume
+                </Link>
               </li>
             </ul>
           </div>
