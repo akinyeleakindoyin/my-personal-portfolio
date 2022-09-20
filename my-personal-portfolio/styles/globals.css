@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&display=swap');
 
 /* Font downloaded from FontsForWeb.com */
@@ -29,8 +29,8 @@ body,
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Poppins', BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
-    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
   box-sizing: border-box;
 
   scroll-behavior: smooth;
@@ -43,9 +43,9 @@ body,
   body {
     @apply bg-[#f3f3f3]  tracking-wide;
   }
-  h1 {
+  /* h1 {
     @apply text-[color:var(--bg-color)];
-  }
+  } */
 }
 
 .button {

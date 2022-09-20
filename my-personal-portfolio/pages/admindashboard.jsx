@@ -31,9 +31,25 @@ const admindashboard = () => {
             Calendar, Kanban, Different kinds of Charts, Employees and Orders
             page, Chat, Notification, Admin profile, Carts.
           </p>
-          <div className='text-white'>
-            <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-            <button className='px-8 py-2 mt-4'>Code</button>
+          <div className='text-[#444]'>
+            <button className='px-8 py-2 mt-4 mr-8'>
+              <Link
+                href='http://syncfusion-dashboard-akinyele.netlify.app/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                Demo
+              </Link>
+            </button>
+            <button className='px-8 py-2 mt-4'>
+              <Link
+                href='https://github.com/akinyeleakindoyin/syncfusion-admindashboard.git'
+                target='_blank'
+                rel='noreferrer'
+              >
+                Github
+              </Link>
+            </button>
           </div>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-gray-400 shadow-xl rounded-xl p-4'>

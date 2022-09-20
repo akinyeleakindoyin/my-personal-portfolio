@@ -80,7 +80,7 @@ const Navbar = () => {
         </div>
         <ul
           style={{ color: `${linkColor}` }}
-          className='flex  item-center justify-between font-bold  py-1 px-4 rounded-full xs:hidden mr-14'
+          className='flex  item-center justify-between font-bold  py-1 px-4 rounded-full xs:hidden sm:hidden mr-14'
         >
           <li className=' p-2 cursor-pointer'>
             <Link href='/'>Home</Link>

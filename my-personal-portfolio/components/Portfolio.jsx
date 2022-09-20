@@ -16,7 +16,7 @@ const Portfolio = () => {
   return (
     <div
       id='portfolio'
-      className=' py-2 mx-auto overflow-x-scroll  items-center justify-center '
+      className=' py-2 mx-1 overflow-x-scroll  items-center justify-center '
     >
       {/* <div>
         <p className='text-xl tracking-widest text-[#5651e5]'>Projects</p>
@@ -33,7 +33,7 @@ const Portfolio = () => {
             </div>;
           })}
         </div> */}
-      <div className='md:grid lg:flex  lg:flex-wrap lg:gap-8  gap-2 md:grid-cols-2 md:gap-2 md:ml-10 sm:grid-cols-2 xs:flex xs:justify-start xs:translate-x-[6%]  justify-center items-center '>
+      <div className='md:grid flex  lg:flex-wrap lg:gap-8  gap-2 md:grid-cols-2 md:gap-2 md:ml-10 justify-center xs:translate-x-[6%] sm:translate-x-[6%] sm:justify-start xs:justify-start  items-center'>
         <div id='slides' className=''>
           <PortfolioItems
             title='Fitness-Gym'
