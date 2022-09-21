@@ -32,6 +32,7 @@ body,
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   box-sizing: border-box;
+  color: #444;
 
   scroll-behavior: smooth;
 }
@@ -43,9 +44,9 @@ body,
   body {
     @apply bg-[#f3f3f3]  tracking-wide;
   }
-  /* h1 {
-    @apply text-[color:var(--bg-color)];
-  } */
+  h1 {
+    @apply text-[#444];
+  }
 }
 
 .button {

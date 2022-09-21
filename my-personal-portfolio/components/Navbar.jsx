@@ -67,7 +67,7 @@ const Navbar = () => {
             : 'fixed w-screen flex items-center justify-between h-20 z-[100]'
         }
       >
-        <div className=' ml-10 flex justify-center'>
+        <div className='ml-10 flex justify-center'>
           <Link href='/' className='cursor-pointer'>
             <Image
               src={logo ? akinImg : logoImg}
